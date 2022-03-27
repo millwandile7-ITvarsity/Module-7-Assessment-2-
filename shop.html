@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Restaurant</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+    <link rel="stylesheet" href="fontAwesome/fonts/all.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="body-wrapper">   
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logow.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews%20.html">Reviews</a>
+        <a href="about.html">About</a>
+        <a href="contact%20.html">Contact</a>
+        <a href="shop.html">Shop</a>
+        <a href="checkout.html">Checkout</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="counter-container">
+         <span id="counter">1</span>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+    <div id="login-btn" class="fas fa-user"></div>
+</div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+<div class="cart">
+    <div class="cart-items-container">
+         <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE /Order</button>
+        </section>
+    </div>
+</div>
+<form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+    <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+</header>
+    <!-- header section ends -->
+
+<!-- shop section starts  -->
+         <section class="container content-section">
+            <h2 class="section-header1">MENU LIST</h2>
+            <h2 class="section-header2">STARTERS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Tomato and broad bean</span>
+                    <img class="shop-item-image" src="Images/sterate%203.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R50.85</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title"> Crusted Ahi Tuna Steak</span>
+                    <img class="shop-item-image" src="Images/salmon.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R76.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Baked spring rolls</span>
+                    <img class="shop-item-image" src="Images/starte%201.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R39.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sourdough with Soup</span>
+                    <img class="shop-item-image" src="Images/s-img-6.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">MEALS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Burger</span>
+                    <img class="shop-item-image" src="Images/meals%203.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R56.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Grain bowls</span>
+                    <img class="shop-item-image" src="Images/meals%201.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R92.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Pizza</span>
+                    <img class="shop-item-image" src="Images/meals%206.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R109.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Brown rice pasta</span>
+                    <img class="shop-item-image" src="Images/healthy%202.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R45.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">DRINKS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Cocktail</span>
+                    <img class="shop-item-image" src="Images/s-img-4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R54.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Hundson whiskey</span>
+                    <img class="shop-item-image" src="Images/drink%208.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R247.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Beer</span>
+                    <img class="shop-item-image" src="Images/drink%209.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R25.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Orange juice</span>
+                    <img class="shop-item-image" src="Images/drink%203.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section class="container content-section">
+            <h2 class="section-header">DESSERTS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Strawberry Starbucks</span>
+                    <img class="shop-item-image" src="Images/ice%201.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R45.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Overnight Trifle</span>
+                    <img class="shop-item-image" src="Images/deseart%2011.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R45.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Mini Chocolate Cake</span>
+                    <img class="shop-item-image" src="Images/p-4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R29.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Honey Semifreddo</span>
+                    <img class="shop-item-image" src="Images/deseart%205.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R35.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">SALADS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Fruit Salad</span>
+                    <img class="shop-item-image" src="Images/deseart%208.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R26.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Big Italian Salad</span>
+                    <img class="shop-item-image" src="Images/salad%201.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R34.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Potato Salad</span>
+                    <img class="shop-item-image" src="Images/potato%201.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R35.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Easy Greek Salad</span>
+                    <img class="shop-item-image" src="Images/salad%202.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R47.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-3" id="suggested-items">
+            <div class="container">
+                <div class="section-header3">You May Also Like | breakfast specials</div>
+                <div class="row">
+                    <div class="col col-md-3 d-flex mb-2">
+                        <div class="shop-item1">
+                            <img class="card-img-top img-fluid border-bottom" src="images/break%20fast%202.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="shop-item-title1">Chicken Starter</h5>
+                                <p class="card-text">Exhibit a great fashion sense wearing these heels from the house of O.T. Collection.
+                                </p>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 d-flex mb-2">
+                        <div class="shop-item1">
+                            <img class="card-img-top img-fluid border-bottom" src="images/break%20fast%203.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="shop-item-title1">Cheese Burger</h5>
+                                <p class="card-text">Make the rest look at you in admiration as you make your way by wearing these van sneakers
+                                    from ASB.</p>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 d-flex mb-2">
+                        <div class="shop-item1">
+                            <img class="card-img-top img-fluid border-bottom" src="images/break%20fast%205.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="shop-item-title1">Shamrock Juice Cocktail</h5>
+                                <p class="card-text">Exhibit a great fashion sense wearing these heels from the house of O.T. Collection.
+                                </p>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 d-flex mb-2">
+                        <div class="shop-item1">
+                            <img class="card-img-top img-fluid border-bottom" src="images/coco%202.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="shop-item-title1">pink gulesh & berries </h5>
+                                <p class="card-text">Make the rest look at you in admiration as you make your way by wearing these van sneakers
+                                    from ASB.</p>
+                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header4">TODAY'S SPECIALS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Coffee</span>
+                    <img class="shop-item-image" src="Images/Cofee.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Strawberry Cocktail</span>
+                    <img class="shop-item-image" src="Images/drink%204.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R25.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section" >
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Chicken Wings</span>
+                    <img class="shop-item-image" src="Images/chicken.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R55.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Chocolate Fagg</span>
+                    <img class="shop-item-image" src="Images/deseart%203.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R35.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <a href=checkout.html><button class="btn btn-primary btn-purchase" type="button">proceed to Checkout</button></a>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">The Generics</h3>
+                <ul class="nav footer-nav">
+                    
+                </ul>
+            </div>
+        </footer>
+
+<!-- footer section ends -->
+  
+<!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="store.js"></script>
+    <script src="dist/jquery/jquery.min.js"></script>
+    <script src="dist/popper/popper.min.js" integrity=""></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js2/main.min.js"></script>
+    <script src="js2/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Restaurant</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+    <link rel="stylesheet" href="fontAwesome/fonts/all.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+ <body class="body-wrapper">
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logow.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="reviews%20.html">Reviews</a>
+        <a href="about.html">About</a>
+        <a href="contact%20.html">Contact</a>
+        <a href="shop.html">Shop</a>
+        <a href="checkout.html">Checkout</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="counter-container">
+         <span id="counter"></span>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+<div class="cart">
+    <div class="cart-items-container">
+         <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </div>
+</div>
+ <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+</header>
+<!-- header section ends -->
+<!-- about  section starts -->
+  <div class="heading">
+    <h1>about us</h1>
+</div>
+<section class="content-section container">
+            <img class="about-band-image" src="Images/wandi%20a.jpg">
+            <h2>The Wandi's Food Joint Restaurant, located on Park Town, specializes in delicious, homemade foods and warm, friendly service.
+We’re all family here at the Wandi's Food Joint, with sisters, parents, and husbands working together to provide our customers with nothing but the best: quality foods made with quality ingredients, served in a comfortable, inviting place.
+That’s why locals and visitors alike have been joining us for nearly twenty years, both here and at our sister locations, the Hole in One Donut Shop in Eastham, and the Hole Donut Shop and Deli in Orleans.
+We are committed to our customers and the Jozi community we love, and show our support for local schools and community fundraisers whenever possible. Come join us at our upcoming events!
+Please stop by and see us next time you’re on the Jozi. We promise it won’t be your last!</h2>
+        </section>
+        
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Our Team</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="Images/wandi%20pic.jpg">
+                             <h2> Staff Manager : Wandile Ndaba</h2>
+                             <div class="stars">
+                               <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                   <i class="far fa-star"></i>
+                                </div>
+                            </a>
+                        </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Lists_of_restaurants" target="_blank">
+                            <img src="Images/order-img.jpg">
+                            <h2>Waitress : Kelly Johnson</h2>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="Images/chef%203.jpeg">
+                            <h2>Chef : Zandi Dlamini</h2>
+                             <div class="stars">
+                              <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="store.js"></script>
+    <script src="dist/jquery/jquery.min.js"></script>
+    <script src="dist/popper/popper.min.js" integrity=""></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js2/main.min.js"></script>
+    <script src="js2/script.js"></script>
+
+</body>
+</html>

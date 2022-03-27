@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Menu|Bruschetta</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+    
+    <body class="body-meals">
+        
+        <div class="header">
+            <a href="starter.html">
+               <i class="fas fa-chevron-circle-left"></i>
+            </a>
+            <a href="index.html">
+              <i class="fa fa-home" aria-hidden="true"></i>
+           </a>
+         <img src="images/logow.png">
+        </div>
+         <section class="about">
+
+    <div class="image">
+        <img src="images/sterate%206.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <h3> bruschetta</h3>
+         <p>A popular dish is bruschetta with tomatoes; one recipe popular outside Italy involves basil, fresh tomato, garlic and onion or mozzarella. Bruschetta is usually served as a snack or appetizer. In some countries, the prepared topping is marketed as bruschetta.
+        In the Abruzzo region of Italy a variation of bruschetta made with a salame called ventricina is served. Raw pork products and spices encased in pig bladder are aged and the paste spread on open slices of bread which are sometimes grilled. The dish was developed as a way of salvaging bread that was going stale. In Tuscany it is called fettunta and it is usually served without toppings, especially in November, to taste the first oil of the seaso</p>
+        <p>Bruschetta originated in Italy during 15th century. However, the dish can be traced back to Ancient Rome, when olive growers would bring their olives to a local olive press and taste a sample of their freshly pressed oil using a slice of bread.</p>
+        <a href="#" class="read-more-btn">read more</a>
+        <br>
+        <hr>
+        <span>serving size</span>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <h3>Price : R 65</h3>
+  </div>
+</section>
+      <div class="extra">
+        <h3>Choose here if you want to add some extra food</h3>
+         <br>
+        <div id="extra">
+        <input type="checkbox" id="extra-list"/>
+        <label for="extra-list">Extra roma tomatoes</label>
+        </div>
+        <div id="extra">
+        <input type="checkbox" id="extra-list"/>
+        <label for="extra-list">Fine Shredded Permesan Cheese</label>
+        </div>
+        <div id="extra">
+        <input type="checkbox" id="extra-list"/>
+        <label for="extra-list">Bread Slice</label>
+        </div>
+    </div>      
+   <h4 class="unwanted">Do you  want your order served with drinks</h4>
+          <div class="custom-control">
+            <input id="yes" name="option" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="yes">Yes</label>
+                 </div>
+                  <div class="custom-control">
+                    <input id="no" name="option" type="radio" class="custom-control-input" required>
+                    <label class="custom-control-label" for="no">No</label>
+                    </div>
+                    <div class="massage">
+                    <h4 class="unwanted">state your  allergies/iterm you need add or removed</h4>
+                    <textarea placeholder="Message" class="field"></textarea> 
+                      </div>
+           <section class="items">
+               <h3>your order and iterms you may like</h3>
+           <div class="box-container">
+                <div class="box">
+                  <div class="shop-item">
+                    <span class="shop-item-title"> bruschetta</span>
+                    <img class="shop-item-image" src="Images/sterate%206.jpeg">
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">R65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="shop-item">
+                    <span class="shop-item-title">Expresso</span>
+                    <img class="shop-item-image" src="Images/blog-2.jpeg">
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">R25.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+           <div class="shop-item">
+                    <span class="shop-item-title">Orange juice</span>
+                    <img class="shop-item-image" src="Images/drink%202.jpeg">
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">R247.99</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+              <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">cranberry Cocktail</span>
+                    <img class="shop-item-image" src="Images/drink%204.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R54.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+        <br>
+        <br>
+        <div class="shopping-cart">
+        <div class="cart">
+           <div class="cart-items-container">
+             <section class="container content-section">
+             <h2 class="section-header">CART</h2>
+             <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE /Order</button>
+        </section>
+    </div>
+</div>   
+</div>
+<!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="store.js"></script>
+    <script src="dist/jquery/jquery.min.js"></script>
+    <script src="dist/popper/popper.min.js" integrity=""></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js2/main.min.js"></script>
+    <script src="js2/script.js"></script>
+    </body>
+</html>  
+                    

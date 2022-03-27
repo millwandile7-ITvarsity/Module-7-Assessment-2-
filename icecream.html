@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Menu|Ice Cream</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+    <body class="body-meals">
+        
+        <div class="header">
+            <a href="deserts.html">
+               <i class="fas fa-chevron-circle-left"></i>
+            </a>
+            <a href="index.html">
+              <i class="fa fa-home" aria-hidden="true"></i>
+           </a>
+         <img src="images/logow.png">
+        </div>
+         <section class="about">
+
+    <div class="image">
+        <img src="images/ice%202.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Ice Cream</h3>
+       <p>In some countries, such as the United States, "ice cream" applies only to a specific variety, and most governments regulate the commercial use of the various terms according to the relative quantities of the main ingredients, notably the amount of cream.[1] Products that do not meet the criteria to be called ice cream are sometimes labelled "frozen dairy dessert" instead.[2] In other countries, such as Italy and Argentina, one word is used for all variants. Analogues made from dairy alternatives, such as goat's or sheep's milk, or milk substitutes (e.g., soy, cashew, coconut, almond milk or tofu), are available for those who are lactose intolerant, allergic to dairy protein, or vegan.</p>
+       <p>Ice cream may be served in dishes, for eating with a spoon, or licked from edible wafer cones. Ice cream may be served with other desserts, such as apple pie, or as an ingredient in ice cream floats, sundaes, milkshakes, ice cream cakes and even baked items, such as Baked Alaska.</p> 
+        <a href="#" class="read-more-btn">read more</a>
+        <br>
+        <span>serving size</span>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <h3>Price : R 35.99 per bowl</h3>
+  </div>
+</section>
+      <div class="extra">
+        <h3>Choose here if you want to add some extra food</h3>
+         <br>
+        <div id="extra">
+        <input type="checkbox" id="extra-list"/>
+        <label for="extra-list">Cookie Dough</label>
+        </div>
+        <div id="extra">
+        <input type="checkbox" id="extra-list"/>
+        <label for="extra-list">Buttered Pecan</label>
+        </div>
+        <div id="extra">
+        <input type="checkbox" id="extra-list"/>
+        <label for="extra-list">Mint Chocolate Chip</label>
+        </div>
+    </div>      
+   <h4 class="unwanted">Do you  want your order served with drinks</h4>
+          <div class="custom-control">
+            <input id="yes" name="option" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="yes">Yes</label>
+                 </div>
+                  <div class="custom-control">
+                    <input id="no" name="option" type="radio" class="custom-control-input" required>
+                    <label class="custom-control-label" for="no">No</label>
+                    </div>
+                    <div class="massage">
+                    <h4 class="unwanted">state your  allergies/iterm you need add or removed</h4>
+                    <textarea placeholder="Message" class="field"></textarea> 
+                      </div>
+           <section class="items">
+               <h3>your order and iterms you may like</h3>
+           <div class="box-container">
+                <div class="box">
+                  <div class="shop-item">
+                    <span class="shop-item-title">Ice Cream</span>
+                    <img class="shop-item-image" src="Images/ice%202.jpeg">
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">R35.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="shop-item">
+                    <span class="shop-item-title">Altramel drink</span>
+                    <img class="shop-item-image" src="Images/deseart%2011.jpeg">
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">R25.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+           <div class="shop-item">
+                    <span class="shop-item-title">Hundson whiskey</span>
+                    <img class="shop-item-image" src="Images/drink%208.jpeg">
+                    <div class="shop-item-details">
+                    <span class="shop-item-price">R247.99</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+              <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Cocktail</span>
+                    <img class="shop-item-image" src="Images/s-img-4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">R54.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+        <br>
+        <br>
+        <div class="shopping-cart">
+        <div class="cart">
+           <div class="cart-items-container">
+             <section class="container content-section">
+             <h2 class="section-header">CART</h2>
+             <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE /Order</button>
+        </section>
+    </div>
+</div>   
+</div>
+<!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="store.js"></script>
+    <script src="dist/jquery/jquery.min.js"></script>
+    <script src="dist/popper/popper.min.js" integrity=""></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js2/main.min.js"></script>
+    <script src="js2/script.js"></script>
+    </body>
+</html>  
+                    
+  
+   
+    
+   
